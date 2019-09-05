@@ -16,6 +16,30 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var password: UITextField!
     @IBOutlet weak var login: UIButton!
     
+    //MARK:- Properties
+    var keyboardShowm = false
+    let textFieldDelegate = TextFieldDelegate()
+    
+    //MARK:- LifeCycle
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        userName.delegate = textFieldDelegate
+        password.delegate = textFieldDelegate
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        subscribeToKeyboardNotifications()
+        
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        unsubscribeFromKeyboardNotifications()
+    }
+    
+    
     //MARK:- Actions
     @IBAction func login(_ sender: Any) {
         

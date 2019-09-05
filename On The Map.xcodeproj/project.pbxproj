@@ -23,6 +23,8 @@
 		9FF67CBE231DB6350059E80B /* ShowLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF67CBD231DB6350059E80B /* ShowLocationViewController.swift */; };
 		9FF67CC2231EE1950059E80B /* SpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF67CC1231EE1950059E80B /* SpinnerViewController.swift */; };
 		9FF67CC4231EE4C00059E80B /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF67CC3231EE4C00059E80B /* AlertViewController.swift */; };
+		9FF67CC623215ACE0059E80B /* KeyboardSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF67CC523215ACE0059E80B /* KeyboardSubscriber.swift */; };
+		9FF67CC8232163A30059E80B /* TextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF67CC7232163A30059E80B /* TextFieldDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		9FF67CBD231DB6350059E80B /* ShowLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowLocationViewController.swift; sourceTree = "<group>"; };
 		9FF67CC1231EE1950059E80B /* SpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerViewController.swift; sourceTree = "<group>"; };
 		9FF67CC3231EE4C00059E80B /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		9FF67CC523215ACE0059E80B /* KeyboardSubscriber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardSubscriber.swift; sourceTree = "<group>"; };
+		9FF67CC7232163A30059E80B /* TextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +117,8 @@
 				9FF67CBD231DB6350059E80B /* ShowLocationViewController.swift */,
 				9FF67CC1231EE1950059E80B /* SpinnerViewController.swift */,
 				9FF67CC3231EE4C00059E80B /* AlertViewController.swift */,
+				9FF67CC523215ACE0059E80B /* KeyboardSubscriber.swift */,
+				9FF67CC7232163A30059E80B /* TextFieldDelegate.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -224,10 +230,12 @@
 				9FF67CBE231DB6350059E80B /* ShowLocationViewController.swift in Sources */,
 				9FF67CB0231B32880059E80B /* MapViewController.swift in Sources */,
 				9FF67CAA231B059D0059E80B /* GCDBlackBox.swift in Sources */,
+				9FF67CC8232163A30059E80B /* TextFieldDelegate.swift in Sources */,
 				9FF67CB3231B3A690059E80B /* UdacityConvenience.swift in Sources */,
 				9FF67CBC231DB1990059E80B /* AddLocationViewController.swift in Sources */,
 				9FF67CB9231D8DD50059E80B /* TableViewController.swift in Sources */,
 				9FF67CC4231EE4C00059E80B /* AlertViewController.swift in Sources */,
+				9FF67CC623215ACE0059E80B /* KeyboardSubscriber.swift in Sources */,
 				9FF67C93231B021D0059E80B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
